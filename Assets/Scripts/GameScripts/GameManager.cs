@@ -30,5 +30,10 @@ public class GameManager : MonoBehaviour
 		levelImage = GameObject.Find("LevelImage");
 	}
 
+	private void Strike(int damageFirst, int defenceSecond, int accuracyFirst, int agilitySecond)
+	{
+		if ((accuracyFirst - agilitySecond / 2) - Random.Range(0, 100) > 0)
+			return;
+	}
 	
 }
