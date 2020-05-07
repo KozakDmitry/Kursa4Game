@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3971aaad21377f844b088f3b2a0f47ff, type: 3}
-  m_Name: FirstHalf
+  m_Name: River
   m_EditorClassIdentifier: 
-  algorithm: 7
+  algorithm: 9
   randomSeed: 1
   seed: 1200
-  fillAmount: 58
-  smoothAmount: 3
-  clearAmount: 11
-  interval: 5
-  minPathWidth: 10
-  maxPathWidth: 20
-  maxPathChange: 6
-  roughness: 23
-  windyness: 33
-  edgesAreWalls: 1
-  modifier: 0.505
+  fillAmount: 0
+  smoothAmount: 0
+  clearAmount: 0
+  interval: 0
+  minPathWidth: 4
+  maxPathWidth: 4
+  maxPathChange: 4
+  roughness: 0
+  windyness: 50
+  edgesAreWalls: 0
+  modifier: 0

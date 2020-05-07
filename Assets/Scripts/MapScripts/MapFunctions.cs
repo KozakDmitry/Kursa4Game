@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using JetBrains.Annotations;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -36,7 +37,7 @@ public class MapFunctions
 
 
     /// Draws the map to the screen
-    public static void RenderMap(int[,] map, Tilemap tilemap, TileBase tile)
+    public static void RenderMap(int[,] map, Tilemap tilemap, TileBase tile, TileBase tileSecond,TileBase tileThird)
     {
         tilemap.ClearAllTiles();
         for (int x = 0; x < map.GetUpperBound(0); x++) 
@@ -47,6 +48,12 @@ public class MapFunctions
                 {
                     tilemap.SetTile(new Vector3Int(x, y, 0), tile);
                 }
+                if (map[x, y]== 2)
+                {
+                    tilemap.SetTile(new Vector3Int(x, y, 0), tileSecond);
+                }
+                if (map[x, y] ==3)
+                    tilemap.SetTile(new Vector3Int(x, y, 0), tileThird);
             }
         }
     }
@@ -544,6 +551,48 @@ public class MapFunctions
     /// <param name="roughness">How much the edges of the tunnel vary</param>
     /// <param name="windyness">how much the direction of the tunnel varies</param>
     /// <returns>The map after being tunneled</returns>
+    /// 
+
+    public static int[,] RandomRoad(int[,] map)
+    {
+        int tunnelWidth = 1;
+        int y = map.GetUpperBound(1) / 2;
+
+        System.Random rand = new System.Random(Time.time.GetHashCode());
+        for (int x = 1; x < map.GetUpperBound(0);)
+        {
+            //Check if we can change the windyness
+            if (rand.Next(0, 100) > 20)
+            {
+                //Get the amount we will change for the x position
+                int xChange = Random.Range(-1, 2);
+                y += xChange;
+
+                //Check we arent too close to the left side of the map
+                if (y < 1)
+                {
+                    y = 1;
+                }
+                //Check we arent too close to the right side of the map
+                if (y > (map.GetUpperBound(1) - 1))
+                {
+                    y = map.GetUpperBound(1) - 1;
+                }
+
+            }
+            else
+                x++;
+
+            //Work through the width of the tunnel
+            for (int i = -tunnelWidth; i <= tunnelWidth; i++)
+            {
+                if(map[x, y+i]!=2)
+                    map[x, y+i] = 3;
+            }
+        }
+
+        return map;
+    }
     public static int[,] DirectionalTunnel(int[,] map, int minPathWidth, int maxPathWidth, int maxPathChange, int roughness, int windyness)
     {
         //This value goes from its minus counterpart to its positive value, in this case with a width value of 1, the width of the tunnel is 3
@@ -558,7 +607,7 @@ public class MapFunctions
         //Create the first part of the tunnel
         for (int i = -tunnelWidth; i <= tunnelWidth; i++)
         {
-            map[x + i, 0] = 0;
+            map[x + i, 0] = 2;
         }
 
         //Cycle through the array
@@ -608,7 +657,7 @@ public class MapFunctions
             //Work through the width of the tunnel
             for (int i = -tunnelWidth; i <= tunnelWidth; i++)
             {
-                map[x + i, y] = 0;
+                map[x + i, y] = 2;
             }
         }
         return map;

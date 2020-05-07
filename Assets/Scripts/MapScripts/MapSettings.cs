@@ -51,22 +51,16 @@ public class MapSettings_Editor : Editor
         {
             mapLayer.seed = EditorGUILayout.FloatField("Seed", mapLayer.seed);
         }
-
+        
         //Shows different options depending on what algorithm is selected
         switch (mapLayer.algorithm)
         {
-            case Algorithm.Perlin:
-                //No additional Variables
-                break;
             case Algorithm.PerlinSmoothed:
                 mapLayer.interval = EditorGUILayout.IntSlider("Interval Of Points", mapLayer.interval, 1, 10);
                 break;
             case Algorithm.PerlinCave:
                 mapLayer.edgesAreWalls = EditorGUILayout.Toggle("Edges Are Walls", mapLayer.edgesAreWalls);
                 mapLayer.modifier = EditorGUILayout.Slider("Modifier", mapLayer.modifier, 0.0001f, 1.0f);
-                break;
-            case Algorithm.RandomWalkTop:
-                //No additional Variables
                 break;
             case Algorithm.RandomWalkTopSmoothed:
                 mapLayer.interval = EditorGUILayout.IntSlider("Minimum Section Length", mapLayer.interval, 1, 10);
