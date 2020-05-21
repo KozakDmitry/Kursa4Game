@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 0da26893eb6e06d4987fb5e86c617626
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6183610254670242308
+    second: spr_KingGroundAttack_strip_no_bkg_0
+  - first:
+      213: 7076035118276298070
+    second: spr_KingGroundAttack_strip_no_bkg_1
+  - first:
+      213: 391199480015779975
+    second: spr_KingGroundAttack_strip_no_bkg_2
+  - first:
+      213: -3036265742888317224
+    second: spr_KingGroundAttack_strip_no_bkg_3
+  - first:
+      213: -7694697552424628990
+    second: spr_KingGroundAttack_strip_no_bkg_4
+  - first:
+      213: 8984386731584684756
+    second: spr_KingGroundAttack_strip_no_bkg_5
+  - first:
+      213: -1261867471568962012
+    second: spr_KingGroundAttack_strip_no_bkg_6
+  - first:
+      213: -780646684774986105
+    second: spr_KingGroundAttack_strip_no_bkg_7
+  - first:
+      213: 489401361205487319
+    second: spr_KingGroundAttack_strip_no_bkg_8
+  - first:
+      213: -8646523744197296276
+    second: spr_KingGroundAttack_strip_no_bkg_9
+  - first:
+      213: 6543156347075301820
+    second: spr_KingGroundAttack_strip_no_bkg_10
+  - first:
+      213: -5929799163912397436
+    second: spr_KingGroundAttack_strip_no_bkg_11
+  - first:
+      213: 4094029628894292839
+    second: spr_KingGroundAttack_strip_no_bkg_12
+  - first:
+      213: 8741616391838926684
+    second: spr_KingGroundAttack_strip_no_bkg_13
+  - first:
+      213: 2080053475500395792
+    second: spr_KingGroundAttack_strip_no_bkg_14
+  - first:
+      213: -8044619890009081141
+    second: spr_KingGroundAttack_strip_no_bkg_15
+  - first:
+      213: 1166819705215985792
+    second: spr_KingGroundAttack_strip_no_bkg_16
+  - first:
+      213: 6181084548343613547
+    second: spr_KingGroundAttack_strip_no_bkg_17
+  - first:
+      213: -7972838136951022903
+    second: spr_KingGroundAttack_strip_no_bkg_18
+  - first:
+      213: -3351062625440583851
+    second: spr_KingGroundAttack_strip_no_bkg_19
+  - first:
+      213: 4381824235882808218
+    second: spr_KingGroundAttack_strip_no_bkg_20
+  - first:
+      213: 6903853673587648901
+    second: spr_KingGroundAttack_strip_no_bkg_21
+  - first:
+      213: -2162434755566967343
+    second: spr_KingGroundAttack_strip_no_bkg_22
+  - first:
+      213: 8611579566860325611
+    second: spr_KingGroundAttack_strip_no_bkg_23
+  - first:
+      213: -6000296557660994620
+    second: spr_KingGroundAttack_strip_no_bkg_24
+  - first:
+      213: 3738057210401141527
+    second: spr_KingGroundAttack_strip_no_bkg_25
+  - first:
+      213: -2143612597374008147
+    second: spr_KingGroundAttack_strip_no_bkg_26
+  - first:
+      213: 8062959773735099477
+    second: spr_KingGroundAttack_strip_no_bkg_27
+  - first:
+      213: 4619727867714497749
+    second: spr_KingGroundAttack_strip_no_bkg_28
+  - first:
+      213: 6810094216884574910
+    second: spr_KingGroundAttack_strip_no_bkg_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 52
+        width: 16
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27a21a45d2a3044d895ee987b6fecf1
+      internalID: -6183610254670242308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 52
+        width: 17
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726ddf2d492fe184c9cec09a4d915e59
+      internalID: 7076035118276298070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 52
+        width: 16
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5776799686bd59945b184985b51e1fb2
+      internalID: 391199480015779975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 52
+        width: 16
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccd54f3bdab34c459536deaee3e7a3e
+      internalID: -3036265742888317224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 52
+        width: 16
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d279a8e55d904449107784636c7eb3
+      internalID: -7694697552424628990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_5
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 52
+        width: 16
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33978b77a1a61734c85bc249d6f05f43
+      internalID: 8984386731584684756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_6
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 52
+        width: 16
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1cc5762ef4d02459554bfc7f8888db
+      internalID: -1261867471568962012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_7
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 52
+        width: 16
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f28ca660de34974c992679465eef224
+      internalID: -780646684774986105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 52
+        width: 16
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7322970564d2845a21a8c7ba62f70e
+      internalID: 489401361205487319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_9
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 52
+        width: 16
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3781b94d2ffb058469219fcc444a9d8e
+      internalID: -8646523744197296276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_10
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 52
+        width: 16
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234d0ecb04d2ae6468b9bb6fca7250e8
+      internalID: 6543156347075301820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_11
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 52
+        width: 16
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c75727ebb8c4f64fbd8e8b421d867f1
+      internalID: -5929799163912397436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_12
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 52
+        width: 20
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc698743dd9d5a49bc76173a59dc669
+      internalID: 4094029628894292839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_13
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 52
+        width: 21
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fcb1baa27aeb44cbbad97544c793dd
+      internalID: 8741616391838926684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_14
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 52
+        width: 31
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6634a66a0c3ee4ea10871113fd5509
+      internalID: 2080053475500395792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_15
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 52
+        width: 23
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d946fbce1608514b9e89113decccb71
+      internalID: -8044619890009081141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_16
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 52
+        width: 16
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b682c53cc6b969649b87bb3796ada6ed
+      internalID: 1166819705215985792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_17
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 52
+        width: 18
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cfb5d8ad8445544843c2e290fcae2c
+      internalID: 6181084548343613547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_18
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 52
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faf1c5a48f230c43a7ba4c3f5baf80e
+      internalID: -7972838136951022903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_19
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 52
+        width: 67
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20d3f2422dd16f4c98308b6f327c5ab
+      internalID: -3351062625440583851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_20
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 52
+        width: 53
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a441299331e1af24e83f503e932832d2
+      internalID: 4381824235882808218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_21
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 52
+        width: 49
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ebbd9cd5228e04ca6453e18b2fe84c
+      internalID: 6903853673587648901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_22
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 52
+        width: 39
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7d42f628d86194492ea21e704ee3cb
+      internalID: -2162434755566967343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_23
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 52
+        width: 28
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b1bf5bbb7eec04b8228956ec727557
+      internalID: 8611579566860325611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_24
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 52
+        width: 28
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4af0d5d76c345c4e89e678df414b9a7
+      internalID: -6000296557660994620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_25
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 52
+        width: 28
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6317f26fbdd67794a87a0b960056ede0
+      internalID: 3738057210401141527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_26
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 52
+        width: 27
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0ad3bd8ea68e043b355e0215fd4d7c
+      internalID: -2143612597374008147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_27
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 52
+        width: 16
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6734a4a8d246c644ababe2caab13ab9
+      internalID: 8062959773735099477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_28
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 52
+        width: 16
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b108ac6ba057e834a9d525dd19931047
+      internalID: 4619727867714497749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingGroundAttack_strip_no_bkg_29
+      rect:
+        serializedVersion: 2
+        x: 3768
+        y: 52
+        width: 16
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c32cb3a952fd14d8afb86575181873
+      internalID: 6810094216884574910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

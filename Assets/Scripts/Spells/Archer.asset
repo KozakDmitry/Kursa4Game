@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fc41ff35f083648919a7595c96e6b0, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: 
+  Name: 
+  sprites:
+  - {fileID: 21300000, guid: 1b0c9e1a71e800145adce1e373d8cb8e, type: 3}
+  - {fileID: 21300000, guid: 4e67937343b7fc544add84365ef2b1c3, type: 3}
+  - {fileID: 21300000, guid: 38a4e93ac4095f74180e683be2700832, type: 3}
+  couldown: 3

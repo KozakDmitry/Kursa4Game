@@ -10,7 +10,9 @@ public class GameManager : MonoBehaviour
 
 	private GameObject levelImage;                         
 	private LevelManager levelManager;
-	private bool doingSetup = true;
+	private bool doingSetup = false;
+	[SerializeField]
+	private Player player;
 
 
 
@@ -30,6 +32,10 @@ public class GameManager : MonoBehaviour
 		levelImage = GameObject.Find("LevelImage");
 	}
 
+	public void StartBattle(List<GameObject> attackers, List<GameObject> protectors)
+	{
+		doingSetup = true;
+	}
 	private void Strike(int damageFirst, int defenceSecond, int accuracyFirst, int agilitySecond)
 	{
 		if ((accuracyFirst - agilitySecond / 2) - Random.Range(0, 100) > 0)

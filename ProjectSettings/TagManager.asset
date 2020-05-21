@@ -16,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Map
+  - Clickable
   - 
   - 
   - 
@@ -46,6 +46,12 @@ TagManager:
     locked: 0
   - name: BlockingLayer
     uniqueID: 1438885227
+    locked: 0
+  - name: TilemapLayer
+    uniqueID: 228508603
+    locked: 0
+  - name: BattleLayer
+    uniqueID: 776173511
     locked: 0
   - name: Player
     uniqueID: 3199864401
