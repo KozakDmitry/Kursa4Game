@@ -166,6 +166,12 @@ public class BattleScript : MonoBehaviour
             return null;
     }
 
+    IEnumerator Win()
+    {
+
+
+        yield return new WaitForSeconds(2f);
+    }
     void CastSpell(BattleMember att, Animator anim1)
     {
         anim1.SetTrigger("Spell");
@@ -173,9 +179,15 @@ public class BattleScript : MonoBehaviour
         
     }
 
-    void Victory()
+    void Exit()
     {
         Application.Quit();
+    }
+    void Victory()
+    {
+        victoryWindow.SetActive(true);
+        Invoke("Exit", 3f);
+
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -226,15 +238,11 @@ public class BattleScript : MonoBehaviour
             }
             if (enemiesG.Count == 0 || playersG.Count == 0)
             {
-                battleCam.SetActive(false);
-                playCam.SetActive(true);
-                spells.SetActive(false);
                 if (playersG.Count == 0)
                     Application.Quit();
                 if (enemiesG.Count == 0)
                 {
-                    victoryWindow.SetActive(true);
-                    Invoke("Victory", 3f);
+                    Invoke("Victory", 5f);
                     player.squad = playersG;
                 }
             }
